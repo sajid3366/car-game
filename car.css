@@ -10,7 +10,7 @@ body{
     place-items: center;
 }
 #road{
-    background: url(./image/road.png) repeat-y center;
+    background: url(./image/road3.png) repeat-y center;
     /* border: solid 2px red; */
     height: 1200vh;
     width: 50vw;    
@@ -21,15 +21,11 @@ body{
 
 }
 
-.ecarimg{
-    width: 200px;
-}
-
 #start{
     position: absolute;
     color: red;
     padding: 2px 5px;
-    font-size: 20px;
+    font-size: 30px;
     border-radius: 5px;
     z-index: 100;
     cursor: pointer;
@@ -47,7 +43,7 @@ body{
     left: 20px;
     background: #ffff;
     padding: 2px 5px;
-    font-size: 24px;
+    font-size: 30px;
     border-radius: 5px;
 }
 
@@ -92,6 +88,7 @@ body{
     width: 100px;
     height: 100px;
     left: -300px;
+    /* left: -345px; */
     z-index: 1001;
     /* animation: ecar4 infinite linear 5s; */
 
@@ -99,15 +96,19 @@ body{
 
 .ecarimg{
     width: 80px;
+    border: solid 2px red;
+
 }
 .mycarimg{
-    width: 80px;
+    width: 60px;
+    border: solid 2px red;
+
 }
 #mycar{
     width: 100px;
     /* height: 100px; */
     position: relative;
-    top: 26vh;
+    top: 25vh;
 }   
 
 @keyframes ecar1{
@@ -144,9 +145,9 @@ body{
 }
 @keyframes roadanimation{
     0%{
-        top: -220vh;
+        top: -1100vh;
     }
     100%{
-        top: 5vh;
+        top: -500vh;
     }
 }
