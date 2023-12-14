@@ -96,12 +96,12 @@ body{
 
 .ecarimg{
     width: 80px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 
 }
 .mycarimg{
     width: 60px;
-    border: solid 2px red;
+    /* border: solid 2px red; */
 
 }
 #mycar{
