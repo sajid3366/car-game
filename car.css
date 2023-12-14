@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background: url(./image/bg.jpg) no-repeat center;
+    background-size: cover;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+}
+#road{
+    background: url(./image/road.png) repeat-y center;
+    /* border: solid 2px red; */
+    height: 1200vh;
+    width: 50vw;    
+    position: relative;
+    top: -80vh;
+    z-index: -9;
+    /* animation: roadanimation infinite linear 3s; */
+
+}
+
+.ecarimg{
+    width: 200px;
+}
+
+#start{
+    position: absolute;
+    color: red;
+    padding: 2px 5px;
+    font-size: 20px;
+    border-radius: 5px;
+    z-index: 100;
+    cursor: pointer;
+    transition: 0.4s;
+    
+}
+#start:hover{
+    transform: scale(1.2);
+    color: white;
+    background-color: red;
+}
+#score{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    background: #ffff;
+    padding: 2px 5px;
+    font-size: 24px;
+    border-radius: 5px;
+}
+
+#ecar1{
+    /* display: grid; */
+    position: relative;
+    /* place-items: center; */
+    width: 100px;
+    height: 100px;
+    left: 310px;
+    /* left: 240px; */
+    z-index: 1001;
+    /* animation: ecar1 infinite linear 3s; */
+}
+#ecar2{
+    /* display: grid; */
+    position: relative;
+    /* place-items: center; */
+    width: 100px;
+    height: 100px;
+    left: 100px;
+    /* left: 60px; */
+    z-index: 1001;
+    /* animation: ecar2 infinite linear 4s; */
+
+}
+#ecar3{
+    /* display: grid; */
+    position: relative;
+    /* place-items: center; */
+    width: 100px;
+    height: 100px;
+    left: -100px;
+    z-index: 1001;
+    /* animation: ecar3 infinite linear 6s; */
+
+}
+#ecar4{
+    /* display: grid; */
+    position: relative;
+    /* place-items: center; */
+    width: 100px;
+    height: 100px;
+    left: -300px;
+    z-index: 1001;
+    /* animation: ecar4 infinite linear 5s; */
+
+}
+
+.ecarimg{
+    width: 80px;
+}
+.mycarimg{
+    width: 80px;
+}
+#mycar{
+    width: 100px;
+    /* height: 100px; */
+    position: relative;
+    top: 26vh;
+}   
+
+@keyframes ecar1{
+    0%{
+        top: -30vh;
+    }
+    100%{
+        top: 100vh;
+    }
+}
+@keyframes ecar2{
+    0%{
+        top: -50vh;
+    }
+    100%{
+        top: 100vh;
+    }
+}
+@keyframes ecar3{
+    0%{
+        top: -60vh;
+    }
+    100%{
+        top: 100vh;
+    }
+}
+@keyframes ecar4{
+    0%{
+        top: -80vh;
+    }
+    100%{
+        top: 100vh;
+    }
+}
+@keyframes roadanimation{
+    0%{
+        top: -220vh;
+    }
+    100%{
+        top: 5vh;
+    }
+}
