@@ -28,7 +28,7 @@ document.getElementById("start").addEventListener("click", () => {
     document.getElementById("ecar3").style.animation = 'ecar3 4s linear infinite'
     document.getElementById("ecar4").style.animation = 'ecar4 6s linear infinite'
 
-    let t = 25;
+    let t = 20;
     let l = 0;
 
     window.addEventListener("keydown", function (x) {
